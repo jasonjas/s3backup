@@ -12,6 +12,7 @@ An existing S3 bucket
 
 # Instructions
 The BackupFiles.config is created/read by the ConfigParser module
+  - backup_locations, awsregion, awsbucket, and awscredentials values must be defined (see example file below)
 
 hashes.txt is automatically created,
   This file contains the hashes of all files uploaded now and previously
