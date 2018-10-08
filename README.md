@@ -6,6 +6,7 @@ Python 3.7
   - boto3 module
 
 AWS access key / secret key file
+  - See https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html for AWS credentials file format
 
 An existing S3 bucket
 
@@ -31,4 +32,4 @@ region = us-east-1
 bucket = bucket_name
 
 [awscredential]
-file = c:\Users\user
+file = c:\Users\user_name\.aws\credentials
