@@ -11,6 +11,11 @@ AWS access key / secret key file
 An existing S3 bucket
 
 # Instructions
+- Create AWS credentials file 
+- Configure BackupFiles.config file
+- Run config_parser.py
+
+# Notes
 The BackupFiles.config is created/read by the ConfigParser module
   - backup_locations, awsregion, awsbucket, and awscredentials values must be defined (see example file below)
 
@@ -21,16 +26,22 @@ hashes.txt is automatically created,
 
 # Example BackupFiles.config
 [hashfile]
+
 file = C:\backup\hashes.txt
 
 [backup_locations]
 documents = C:\Users\user_name\Documents
 
+otherfiles = E:\importantfiles
+
 [awsregion]
+
 region = us-east-1
 
 [awsbucket]
+
 bucket = bucket_name
 
 [awscredential]
+
 file = c:\Users\user_name\.aws\credentials
