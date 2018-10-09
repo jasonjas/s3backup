@@ -30,6 +30,7 @@ hashes.txt is automatically created,
 file = C:\backup\hashes.txt
 
 [backup_locations]
+
 documents = C:\Users\user_name\Documents
 
 otherfiles = E:\importantfiles
