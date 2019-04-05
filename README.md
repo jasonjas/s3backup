@@ -23,6 +23,7 @@ hashes.txt is automatically created,
   This file contains the hashes of all files uploaded now and previously
   Prevents uploading unchanged files each run
 
+modify_config_file.py can be used to create/modify the BackupFiles.config file. 
 
 # Example BackupFiles.config
 [hashfile]
