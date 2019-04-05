@@ -1,5 +1,8 @@
 # hashes.py
 import hashlib
+from builtins import open, len
+
+import awsupload
 
 
 def get_hash(f):

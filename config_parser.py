@@ -1,6 +1,7 @@
 # parse config file for files/directories to backup
 import configparser
 import os
+from builtins import input, Exception, open
 import hashes
 import awsupload
 from pathlib import Path
@@ -140,7 +141,6 @@ def loopdir(d):
                 loopdir(fullx)
     except FileNotFoundError:
         print(d, "is not a valid file or directory")
-
 
 if __name__ == '__main__':
     main()
