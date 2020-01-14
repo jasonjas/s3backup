@@ -6,6 +6,8 @@ import hashes
 import awsupload
 from pathlib import Path
 
+
+
 currentdir = Path(__file__).parent
 configfile = Path(currentdir / 'BackupFiles.config')
 # default hashfile location, can be set in configfile (if it exists)
